@@ -1,0 +1,16 @@
+package Design_Patterns_and_Principles.DecoratorPatternExample;
+
+public abstract class NotifierDecorator implements Notifier{
+
+  protected Notifier notifier;
+  
+  public NotifierDecorator(Notifier notifier) {
+    this.notifier = notifier;
+  }
+
+  public void send() {
+    notifier.send();
+  }
+
+} 
+  
