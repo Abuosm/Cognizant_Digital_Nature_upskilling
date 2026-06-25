@@ -1,4 +1,3 @@
-# Cognizant_Digital_Nature_upskilling
 
 # 🚀 Cognizant Digital Nurture Upskilling Portfolio
 
