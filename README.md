@@ -1,19 +1,6 @@
 # Cognizant_Digital_Nature_upskilling
 
-## Overview
-
-This repository contains my learning exercises, implementations, and practice programs completed as part of the **Cognizant Digital Nurture Upskilling Program**.
-
-
-
-## Purpose
-
-The purpose of this repository is to document my progress and hands-on practice during the Cognizant Digital Nurture learning journey.
-
----
-
-## Author
-
-**Abuosm**
-
-Cognizant Digital Nurture Upskilling Program
+Welcome to my upskilling repository! This project serves as a comprehensive portfolio documenting my hands-on practice, core implementations, and learning milestones achieved during the Cognizant Digital Nurture Upskilling Program.📌 Repository OverviewThis repository tracks my journey across enterprise backend development, covering algorithmic problem-solving, architectural design principles, database management, and modern framework integration.📂 Directory StructureModule / DirectoryDescriptionKey Tech StackData_Structures_and_AlgorithmsImplementations of core data structures, optimization techniques, and foundational algorithmic challenges.JavaDesign_Patterns_and_PrinciplesPractice exercises implementing Creational, Structural, and Behavioral design patterns along with SOLID principles.JavaLibraryManagementA hands-on enterprise-ready Library Management Application demonstrating core framework capabilities.Spring Framework, JavaPLSQL-Bank-ExercisesDatabase tracking scripts modeling financial/banking environments, focusing on data integrity and performance.PL/SQL, Oracle DB🚀 Core Competencies Covered1. Software Architecture & Design PatternsApplying SOLID principles to eliminate code rigidity and fragility.Implementing design patterns (e.g., Singleton, Factory, Strategy, Observer) to write decoupled, reusable code.2. Enterprise Backend DevelopmentBuilding robust backend layers leveraging the Spring Framework ecosystem.Structuring clean configurations, inversion of control (IoC), and dependency injection.3. Database ProgrammingDeveloping secure transactional databases using PL/SQL.Writing optimized stored procedures, triggers, packages, and complex queries tailored for a banking domain.4. Problem Solving & AlgorithmsAnalyzing time and space complexities ($\mathcal{O}(n)$ efficiency).Structuring data efficiently to optimize retrieval and manipulation performance.⚙️ Getting StartedPrerequisitesJava Development Kit (JDK 17 or higher)Apache Maven (for dependency management)Oracle DB / SQL Developer (or any PL/SQL compatible environment)An IDE of your choice (IntelliJ IDEA, Eclipse, or VS Code)Setup & InstallationClone the repository:Bashgit clone https://github.com/Abuosm/Cognizant_Digital_Nature_upskilling.git
+Navigate into your project directory of choice (e.g., LibraryManagement):Bashcd Cognizant_Digital_Nature_upskilling/LibraryManagement/LibraryManagement
+Build the project using Maven:Bashmvn clean install
+✍️ AuthorAbubakar Osman (@Abuosm)Participant in the Cognizant Digital Nurture Upskilling Program
