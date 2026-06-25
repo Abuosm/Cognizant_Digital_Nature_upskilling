@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean
+        id="bookService"
+        class="com.library.service.BookService"/>
+
+    <bean
+        id="bookRepository"
+        class="com.library.repository.BookRepository"/>
+
+<property
+name="bookRepository"
+ref="bookRepository"/>
+<aop:config>
+
+<aop:aspect ref="loggingAspect">
+
+<aop:pointcut
+id="serviceMethods"
+expression=
+"execution(* com.library.service.*.*(..))"/>
+
+<aop:before
+pointcut-ref="serviceMethods"
+method="beforeMethod"/>
+
+<aop:after
+pointcut-ref="serviceMethods"
+method="afterMethod"/>
+
+</aop:aspect>
+
+</aop:config>
+
+<context:component-scan
+base-package="com.library"/>
+</beans>
