@@ -1,0 +1,14 @@
+<bean id="it" class="com.cognizant.spring_learn.model.Department">
+    <property name="id" value="1"/>
+    <property name="name" value="IT"/>
+</bean>
+
+<bean id="hr" class="com.cognizant.spring_learn.model.Department">
+    <property name="id" value="2"/>
+    <property name="name" value="HR"/>
+</bean>
+
+<bean id="finance" class="com.cognizant.spring_learn.model.Department">
+    <property name="id" value="3"/>
+    <property name="name" value="Finance"/>
+</bean>
